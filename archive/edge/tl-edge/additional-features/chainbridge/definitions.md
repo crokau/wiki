@@ -197,7 +197,7 @@ Ang resource ID ay arbitrary, ngunit bilang kalakaran, kadalasan na naglalaman n
 
 ## JSON-RPC URL para sa Polygon PoS {#json-rpc-url-for-polygon-pos}
 
-Para sa gabay na ito, gagamitin natin ang https://rpc-mumbai.matic.today, isang pampublikong JSON-RPC URL na inilaan ng Polygon, na maaaring mayroong mga limit sa trapiko o rate. Gagamitin lang ito para kumonekta sa Polygon Mumbai testnet. Pinapayuhan ka naming kunin ang JSON-RPC URL mo sa pamamagitan ng isang external service tulad ng Infura dahil magpapadala ng maraming katanungan/kahilingan sa JSON-RPC ang pag-deploy ng mga kontrata.
+Para sa gabay na ito, gagamitin natin ang https://rpc-mumbai.polygon.technology, isang pampublikong JSON-RPC URL na inilaan ng Polygon, na maaaring mayroong mga limit sa trapiko o rate. Gagamitin lang ito para kumonekta sa Polygon Mumbai testnet. Pinapayuhan ka naming kunin ang JSON-RPC URL mo sa pamamagitan ng isang external service tulad ng Infura dahil magpapadala ng maraming katanungan/kahilingan sa JSON-RPC ang pag-deploy ng mga kontrata.
 
 ## Mga paraan sa pagproseso ng paglipat ng mga token {#ways-of-processing-the-transfer-of-tokens}
 Kapag inililipat ang mga ERC20 token sa pagitan ng mga chain, maaari silang maproseso sa dalawang magkaibang mode:

@@ -40,9 +40,9 @@ The Mumbai Testnet serves as a replica of the Polygon Mainnet and is primarily u
 | Parent Chain     | **[Goërli](https://goerli.net/)**                                                                   |
 | Chain ID         | `80001`                                                                                            |
 | Gas Token        | [MATIC](gas-token)                                                                                  |
-| Gas Station      | [Mumbai Gas Station](https://gasstation-mumbai.matic.today/v2)                                       |
-| RPC Endpoint     | [https://rpc-mumbai.matic.today](https://rpc-mumbai.matic.today)                                     |
-| Node Endpoint    | [wss://rpc-mumbai.matic.today](wss://rpc-mumbai.matic.today)                                        |
+| Gas Station      | [Mumbai Gas Station](https://gasstation-testnet.polygon.technology/v2)                                       |
+| RPC Endpoint     | [https://rpc-mumbai.polygon.technology](https://rpc-mumbai.polygon.technology)                                     |
+| Node Endpoint    | [wss://rpc-mumbai.polygon.technology](wss://rpc-mumbai.polygon.technology)                                        |
 | Heimdall API     | [https://heimdall-api-testnet.polygon.technology](https://heimdall-api-testnet.polygon.technology)   |
 | Block Explorer   | [https://mumbai.polygonscan.com/](https://mumbai.polygonscan.com/)                                   |
 

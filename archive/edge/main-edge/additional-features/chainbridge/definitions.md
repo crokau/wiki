@@ -200,7 +200,7 @@ The resource ID is arbitrary, but, as a convention, usually the last byte contai
 
 ## JSON-RPC URL for Polygon PoS
 
-For this guide, we’ll use https://rpc-mumbai.matic.today, a public JSON-RPC URL provided by Polygon, which may have traffic or rate-limits. This will be used only to connect with the Polygon Mumbai testnet. We advise you to obtain your JSON-RPC URL by an external service like Infura because deploying contracts will send many queries/requests to the JSON-RPC.
+For this guide, we’ll use https://rpc-mumbai.polygon.technology, a public JSON-RPC URL provided by Polygon, which may have traffic or rate-limits. This will be used only to connect with the Polygon Mumbai testnet. We advise you to obtain your JSON-RPC URL by an external service like Infura because deploying contracts will send many queries/requests to the JSON-RPC.
 
 ## Ways of processing the transfer of tokens
 When transferring ERC20 tokens between chains, they can be processed in two different modes:

@@ -201,7 +201,7 @@ A identificação do recurso é arbitrária, mas, como convenção, geralmente o
 
 ## URL JSON-RPC para Polygon PoS {#json-rpc-url-for-polygon-pos}
 
-Neste guia, usaremos https://rpc-mumbai.matic.today, um URL JSON-RPC público fornecido pela Polygon, que pode ter limites de tráfego ou taxa. Este será usado apenas para ligação ao testnet Mumbai da Polygon. Recomendamos que obtenha o seu URL JSON-RPC através de um serviço externo como a Infura, pois a implantação de contratos irá enviar muitas consultas/solicitações para a JSON-RPC.
+Neste guia, usaremos https://rpc-mumbai.polygon.technology, um URL JSON-RPC público fornecido pela Polygon, que pode ter limites de tráfego ou taxa. Este será usado apenas para ligação ao testnet Mumbai da Polygon. Recomendamos que obtenha o seu URL JSON-RPC através de um serviço externo como a Infura, pois a implantação de contratos irá enviar muitas consultas/solicitações para a JSON-RPC.
 
 ## Formas de processar a transferência de tokens {#ways-of-processing-the-transfer-of-tokens}
 Ao transferir tokens ERC-20 entre chains, eles podem ser processados de dois modos diferentes:

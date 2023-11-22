@@ -65,7 +65,7 @@ Pertama, Anda dapat menyebarkan kontrak Bridge dan ERC20 Handler menggunakan  `c
 ```bash
 # Deploy Bridge and ERC20 contracts in Polygon PoS chain
 $ cb-sol-cli deploy --bridge --erc20Handler --chainId 99 \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --relayers [RELAYER_ACCOUNT_ADDRESS] \
@@ -89,7 +89,7 @@ Deploying contracts...
 ✓ ERC20Handler contract deployed
 
 ================================================================
-Url:        https://rpc-mumbai.matic.today
+Url:        https://rpc-mumbai.polygon.technology
 Deployer:   <ADMIN_ACCOUNT_ADDRESS>
 Gas Limit:   8000000
 Gas Price:   20000000
@@ -137,7 +137,7 @@ Buat file `.env` dan atur nilai berikut.
 
 ```.env
 PRIVATE_KEYS=0x...
-MUMBAI_JSONRPC_URL=https://rpc-mumbai.matic.today
+MUMBAI_JSONRPC_URL=https://rpc-mumbai.polygon.technology
 EDGE_JSONRPC_URL=http://localhost:10002
 ```
 
@@ -166,7 +166,7 @@ Anda dapat mendaftarkan ID sumber daya yang menghubungkan sumber daya di lingkun
 
 ```bash
 $ cb-sol-cli bridge register-resource \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --resourceId "0x000000000000000000000000000000c76ebe4a02bbc34786d860b355f5a5ce00" \
@@ -230,7 +230,7 @@ Terakhir, Anda dapat mulai mentransfer token dari Mumbai ke Edge menggunakan `cb
 ```bash
 # Start transfer from Mumbai to Polygon Edge chain
 $ cb-sol-cli erc20 deposit \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --amount 10 \

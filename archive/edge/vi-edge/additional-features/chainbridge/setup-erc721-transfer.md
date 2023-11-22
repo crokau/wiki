@@ -21,7 +21,7 @@ Trước tiên, bạn sẽ cần đăng ký ID tài nguyên dành cho token ERC7
 ```bash
 # For Polygon PoS chain
 $ cb-sol-cli bridge register-resource \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   # Set ResourceID for ERC721 Token
@@ -71,7 +71,7 @@ Trước tiên, bạn tiến hành mint một NFT nếu cần.
 ```bash
 # Mint NFT 0x50
 $ cb-sol-cli erc721 mint \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [MINTER_ROLE_ACCOUNT] \
   --gasPrice [GAS_PRICE] \
   --erc721Address "[ERC721_CONTRACT_ADDRESS]" \
@@ -83,7 +83,7 @@ $ cb-sol-cli erc721 mint \
 ```bash
 # Check the current owner of NFT
 $ cb-sol-cli erc721 owner \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --erc721Address "[ERC721_CONTRACT_ADDRESS]" \
   --id 0x50
 ```
@@ -94,7 +94,7 @@ Sau đó, bạn cần phê duyệt giao dịch NFT bằng ERC721 Handler
 ```bash
 # Approve transfer of the NFT 0x50 by ERC721 Handler
 $ cb-sol-cli erc721 approve \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --erc721Address "[ERC721_CONTRACT_ADDRESS]" \
@@ -107,7 +107,7 @@ Cuối cùng, bạn bắt đầu tiến hành giao dịch
 ```bash
 # Start transfer from Polygon PoS to Polygon Edge chain
 $ cb-sol-cli erc721 deposit \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --bridge "[BRIDGE_CONTRACT_ADDRESS]" \

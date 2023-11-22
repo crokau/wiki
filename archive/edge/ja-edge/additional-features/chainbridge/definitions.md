@@ -200,7 +200,7 @@ Chainbridgeの`chainId`は、ブロックチェーンネットワークを区別
 
 ## Polygon PoSのJSON-RPC URL {#json-rpc-url-for-polygon-pos}
 
-このガイドでは、トラフィックまたはレート制限があるPolygonが提供する公開JSON-RPC URL、https://rpc-mumbai.matic.todayを使用します。これはPolygon Mumbaiテストネットとの接続にのみ使用されます。コントラクトをデプロイすると、JSON-RPCに多くのクエリ／リクエストを送信するため、Infuraなどの外部サービスでJSON-RPC URLを取得することを推奨します。
+このガイドでは、トラフィックまたはレート制限があるPolygonが提供する公開JSON-RPC URL、https://rpc-mumbai.polygon.technologyを使用します。これはPolygon Mumbaiテストネットとの接続にのみ使用されます。コントラクトをデプロイすると、JSON-RPCに多くのクエリ／リクエストを送信するため、Infuraなどの外部サービスでJSON-RPC URLを取得することを推奨します。
 
 ## トークンの転送を処理する方法 {#ways-of-processing-the-transfer-of-tokens}
 チェーン間でERC20トークンを転送する際、次の2つの異なるモードで処理することができます：

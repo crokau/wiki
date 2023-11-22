@@ -201,7 +201,7 @@ ID sumber bersifat suka-suka, tetapi sebagai kaidah, biasanya byte terakhir meng
 
 ## URL JSON-RPC untuk Polygon PoS {#json-rpc-url-for-polygon-pos}
 
-Untuk panduan ini, kita akan menggunakan https://rpc-mumbai.matic.today, URL JSON-RPC publik yang disediakan oleh Polygon, yang dapat memiliki lalu lintas atau batas kecepatan. Ini akan digunakan hanya untuk menghubungkan dengan tesnet Polygon Mumbai. Kami menyarankan Anda untuk mendapatkan URL JSON-RPC melalui layanan eksternal seperti Infura karena menyebar kontrak akan mengirim banyak kueri/permintaan kepada JSON-RPC.
+Untuk panduan ini, kita akan menggunakan https://rpc-mumbai.polygon.technology, URL JSON-RPC publik yang disediakan oleh Polygon, yang dapat memiliki lalu lintas atau batas kecepatan. Ini akan digunakan hanya untuk menghubungkan dengan tesnet Polygon Mumbai. Kami menyarankan Anda untuk mendapatkan URL JSON-RPC melalui layanan eksternal seperti Infura karena menyebar kontrak akan mengirim banyak kueri/permintaan kepada JSON-RPC.
 
 ## Cara memproses transfer token {#ways-of-processing-the-transfer-of-tokens}
 Ketika mentransfer token ERC20 antara beberapa rantai, token itu akan diproses pada dua mode:

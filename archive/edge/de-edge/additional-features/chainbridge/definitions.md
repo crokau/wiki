@@ -201,7 +201,7 @@ Die Ressourcen-ID ist frei wählbar. In der Regel enthält das letzte Byte jedoc
 
 ## JSON-RPC URL für Polygon PoS {#json-rpc-url-for-polygon-pos}
 
-Für diese Anleitung verwenden wir https://rpc-mumbai.matic.today, eine öffentliche JSON-RPC-URL, die von Polygon zur Verfügung gestellt wird und möglicherweise Datenübertragungs- oder Leistungsbeschränkungen hat. Dies dient nur zur Verbindung mit dem Polygon Mumbai Testnet. Wir empfehlen Ihnen, Ihre JSON-RPC-URL über einen externen Dienst wie Infura zu beziehen, da bei der Einrichtung von Verträgen viele Abfragen an den JSON-RPC gesendet werden.
+Für diese Anleitung verwenden wir https://rpc-mumbai.polygon.technology, eine öffentliche JSON-RPC-URL, die von Polygon zur Verfügung gestellt wird und möglicherweise Datenübertragungs- oder Leistungsbeschränkungen hat. Dies dient nur zur Verbindung mit dem Polygon Mumbai Testnet. Wir empfehlen Ihnen, Ihre JSON-RPC-URL über einen externen Dienst wie Infura zu beziehen, da bei der Einrichtung von Verträgen viele Abfragen an den JSON-RPC gesendet werden.
 
 ## Möglichkeiten zur Übertragung von Token {#ways-of-processing-the-transfer-of-tokens}
 Bei der Übertragung von ERC20-Tokens zwischen Chains können diese in zwei verschiedenen Modi verarbeitet werden:

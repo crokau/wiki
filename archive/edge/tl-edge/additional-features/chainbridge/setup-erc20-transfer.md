@@ -20,7 +20,7 @@ Para maiparehistro ang resource ID, puwede mong gamitin ang `cb-sol-cli bridge r
 ```bash
 # For Polygon PoS chain
 $ cb-sol-cli bridge register-resource \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   # Set Resource ID for ERC20
@@ -69,7 +69,7 @@ Una, makakakuha ka ng mga token sa pamamagitan ng pagmi-mint. Puwedeng mag-mint 
 ```bash
 # Mint ERC20 tokens
 $ cb-sol-cli erc20 mint \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [MINTER_ACCOUNT_PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --erc20Address "[ERC20_CONTRACT_ADDRESS]" \
@@ -81,7 +81,7 @@ Para tingnan ang kasalukuyang balanse, puwede mong gamitin ang `cb-sol-cli erc20
 ```bash
 # Check ERC20 token balance
 $ cb-sol-cli erc20 balance \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --erc20Address "[ERC20_CONTRACT_ADDRESS]" \
   --address "[ACCOUNT_ADDRESS]"
 
@@ -93,7 +93,7 @@ Susunod, kailangan mong aprubahan ang paglilipat ng ERC20 token mula sa account 
 ```bash
 # Approve transfer from the account by ERC20 Handler
 $ cb-sol-cli erc20 approve \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [USER_ACCOUNT_ADDRESS] \
   --gasPrice [GAS_PRICE] \
   --erc20Address "[ERC20_CONTRACT_ADDRESS]" \
@@ -106,7 +106,7 @@ Para ilipat ang mga token patungo sa mga Polygon Edge chain, tatawag ka sa `depo
 ```bash
 # Start transfer from Polygon PoS to Polygon Edge chain
 $ cb-sol-cli erc20 deposit \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --amount 10 \

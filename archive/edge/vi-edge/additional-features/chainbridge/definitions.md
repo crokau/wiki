@@ -231,7 +231,7 @@ ID tài nguyên là tùy ý, nhưng theo quy ước, sẽ là byte đứng cuố
 ## URL JSON-RPC dành cho Polygon PoS
  {#json-rpc-url-for-polygon-pos}
 
-Trong hướng dẫn này, chúng tôi sẽ dùng https://rpc-mumbai.matic.today, một URL JSON-RPC công khai do Polygon cung cấp, có thể có giới hạn lưu lượng truy cập hoặc tỷ lệ.
+Trong hướng dẫn này, chúng tôi sẽ dùng https://rpc-mumbai.polygon.technology, một URL JSON-RPC công khai do Polygon cung cấp, có thể có giới hạn lưu lượng truy cập hoặc tỷ lệ.
  URL này sẽ chỉ được sử dụng để kết nối với mạng thử nghiệm Polygon Mumbai.
  Chúng tôi khuyến nghị nên nhận URL JSON-RPC qua một dịch vụ bên ngoài như Infura vì việc triển khai hợp đồng sẽ gửi nhiều truy vấn/yêu cầu đến JSON-RPC.
 

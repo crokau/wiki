@@ -201,7 +201,7 @@ Kaynak kimliği rastgeledir ancak genel bir kural olarak, genellikle son bayt ka
 
 ## Polygon PoS için JSON-RPC URL {#json-rpc-url-for-polygon-pos}
 
-Bu kılavuz için, Polygon tarafından sağlanan, trafik veya hız sınırları olabilecek genel bir JSON-RPC URL'si olan https://rpc-mumbai.matic.today'i kullanacağız. Bu yalnızca Polygon Mumbai test ağına bağlanmak için kullanılacaktır. Dağıtım sözleşmeleri JSON-RPC adresinize birçok sorgu/istek göndereceğinden, JSON-RPC URL'inizi Infura gibi harici bir servisten almanızı öneririz.
+Bu kılavuz için, Polygon tarafından sağlanan, trafik veya hız sınırları olabilecek genel bir JSON-RPC URL'si olan https://rpc-mumbai.polygon.technology'i kullanacağız. Bu yalnızca Polygon Mumbai test ağına bağlanmak için kullanılacaktır. Dağıtım sözleşmeleri JSON-RPC adresinize birçok sorgu/istek göndereceğinden, JSON-RPC URL'inizi Infura gibi harici bir servisten almanızı öneririz.
 
 ## Token aktarımını işleme yolları {#ways-of-processing-the-transfer-of-tokens}
 ERC20 token'ları zincirler arasında aktarılırken iki farklı modda işlenebilir:

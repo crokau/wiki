@@ -201,7 +201,7 @@ ChainBridge `chainId`는 블록체인 네트워크를 구별하기 위해 브릿
 
 ## Polygon PoS용 JSON-RPC URL {#json-rpc-url-for-polygon-pos}
 
-이 가이드에서는 Polygon이 제공하는 공개 JSON-RPC URL(https://rpc-mumbai.matic.today)을 사용합니다(트래픽 제한 또는 속도 제한이 있을 수 있음). 이는 Polygon Mumbai 테스트넷과 연결하는 데에만 사용됩니다. 계약을 배포하는 경우 JSON-RPC에 많은 쿼리/요청을 보내기 때문에 Infura와 같은 외부 서비스에서 JSON-RPC URL을 얻는 것을 권장합니다.
+이 가이드에서는 Polygon이 제공하는 공개 JSON-RPC URL(https://rpc-mumbai.polygon.technology)을 사용합니다(트래픽 제한 또는 속도 제한이 있을 수 있음). 이는 Polygon Mumbai 테스트넷과 연결하는 데에만 사용됩니다. 계약을 배포하는 경우 JSON-RPC에 많은 쿼리/요청을 보내기 때문에 Infura와 같은 외부 서비스에서 JSON-RPC URL을 얻는 것을 권장합니다.
 
 ## 토큰 이전 처리 방법 {#ways-of-processing-the-transfer-of-tokens}
 체인 간에 ERC20 토큰을 이전할 때는 다음 두 가지 모드에서 처리할 수 있습니다.
