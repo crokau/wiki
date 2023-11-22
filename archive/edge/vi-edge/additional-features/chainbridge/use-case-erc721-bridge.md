@@ -121,7 +121,7 @@ Tất cả các mã và tập lệnh đều có trong Github Repo [Trapesys/chai
 ```bash
 # Deploy Bridge and ERC721 contracts in Polygon PoS chain
 $ cb-sol-cli deploy --bridge --erc721Handler --chainId 99 \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --gasPrice [GAS_PRICE] \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --relayers [RELAYER_ACCOUNT_ADDRESS] \
@@ -146,7 +146,7 @@ Deploying contracts...
 ✓ ERC721Handler contract deployed
 
 ================================================================
-Url:        https://rpc-mumbai.matic.today
+Url:        https://rpc-mumbai.polygon.technology
 Deployer:   <ADMIN_ACCOUNT_ADDRESS>
 Gas Limit:   8000000
 Gas Price:   20000000
@@ -195,7 +195,7 @@ Hãy tạo tệp `.env` và thiết lập các giá trị sau.
 
 ```.env
 PRIVATE_KEYS=0x...
-MUMBAI_JSONRPC_URL=https://rpc-mumbai.matic.today
+MUMBAI_JSONRPC_URL=https://rpc-mumbai.polygon.technology
 EDGE_JSONRPC_URL=http://localhost:10002
 ```
 
@@ -227,7 +227,7 @@ Bạn sẽ đăng ký một ID tài nguyên liên kết với các tài nguyên 
 
 ```bash
 $ cb-sol-cli bridge register-resource \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   # Set Resource ID for ERC721
@@ -299,7 +299,7 @@ Cuối cùng, bạn tiến hành chuyển NFT từ Mumbai sang Edge.
 ```bash
 # Start transfer from Mumbai to Polygon Edge chain
 $ cb-sol-cli erc721 deposit \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --id 0x50 \

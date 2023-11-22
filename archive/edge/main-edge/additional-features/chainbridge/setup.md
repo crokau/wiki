@@ -25,7 +25,7 @@ Firstly, we will deploy contracts to the Polygon PoS chain by `cb-sol-cli deploy
 ```bash
 # Deploy all required contracts into Polygon PoS chain
 $ cb-sol-cli deploy --all --chainId 99 \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --gasPrice [GAS_PRICE] \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --relayers [RELAYER_ACCOUNT_ADDRESS] \
@@ -41,7 +41,7 @@ The default gas price in `cb-sol-cli` is `20000000` (`0.02 Gwei`). To set the ap
 
 ```bash
 $ cb-sol-cli deploy --all --chainId 99 \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --relayers [RELAYER_ACCOUNT_ADDRESS] \
   --relayerThreshold 1 \
@@ -71,7 +71,7 @@ WARNING: Multiple definitions for safeTransferFrom
 ✓ ERC721 contract deployed
 
 ================================================================
-Url:        https://rpc-mumbai.matic.today
+Url:        https://rpc-mumbai.polygon.technology
 Deployer:   <ADMIN_ACCOUNT_ADDRESS>
 Gas Limit:   8000000
 Gas Price:   20000000
@@ -138,7 +138,7 @@ Next, You need to create `config.json` and set the JSON-RPC URLs, relayer addres
       "name": "mumbai",
       "type": "ethereum",
       "id": "99",
-      "endpoint": "https://rpc-mumbai.matic.today",
+      "endpoint": "https://rpc-mumbai.polygon.technology",
       "from": "<RELAYER_ACCOUNT_ADDRESS>",
       "opts": {
         "bridge": "<BRIDGE_CONTRACT_ADDRESS>",

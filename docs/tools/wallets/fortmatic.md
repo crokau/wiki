@@ -38,7 +38,7 @@ import Fortmatic from 'fortmatic';
 import Web3 from 'web3';
 
 const customNodeOptions = {
-    rpcUrl: 'https://rpc-mumbai.matic.today', // your own node url
+    rpcUrl: 'https://rpc-mumbai.polygon.technology', // your own node url
     chainId: 80001 // chainId of your own node
 }
 

@@ -18,7 +18,7 @@ Dovrai prima registrare l'ID di risorsa per il token ERC721 nei contratti bridge
 ```bash
 # For Polygon PoS chain
 $ cb-sol-cli bridge register-resource \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   # Set ResourceID for ERC721 Token
@@ -66,7 +66,7 @@ In primo luogo, creerai un NFT se ne hai bisogno.
 ```bash
 # Mint NFT 0x50
 $ cb-sol-cli erc721 mint \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [MINTER_ROLE_ACCOUNT] \
   --gasPrice [GAS_PRICE] \
   --erc721Address "[ERC721_CONTRACT_ADDRESS]" \
@@ -78,7 +78,7 @@ Per controllare il proprietario degli NFT, puoi utilizzare `cb-sol-cli erc721 ow
 ```bash
 # Check the current owner of NFT
 $ cb-sol-cli erc721 owner \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --erc721Address "[ERC721_CONTRACT_ADDRESS]" \
   --id 0x50
 ```
@@ -88,7 +88,7 @@ In seguito, approverai un trasferimento del NFT da parte dell'handler ERC721
 ```bash
 # Approve transfer of the NFT 0x50 by ERC721 Handler
 $ cb-sol-cli erc721 approve \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --erc721Address "[ERC721_CONTRACT_ADDRESS]" \
@@ -101,7 +101,7 @@ Infine, avvierai il trasferimento
 ```bash
 # Start transfer from Polygon PoS to Polygon Edge chain
 $ cb-sol-cli erc721 deposit \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --bridge "[BRIDGE_CONTRACT_ADDRESS]" \

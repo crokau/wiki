@@ -50,7 +50,7 @@ Next, set up Polygon and Ropsten provider via WalletConnect’s object:
 ```javascript
 const maticProvider = new WalletConnectProvider(
   {
-    host: `https://rpc-mumbai.matic.today`,
+    host: `https://rpc-mumbai.polygon.technology`,
     callbacks: {
       onConnect: console.log('connected'),
       onDisconnect: console.log('disconnected!')

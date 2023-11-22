@@ -114,7 +114,7 @@ Em primeiro lugar, terá de implantar contratos Bridge e ERC721Handler nas duas 
 ```bash
 # Deploy Bridge and ERC721 contracts in Polygon PoS chain
 $ cb-sol-cli deploy --bridge --erc721Handler --chainId 99 \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --gasPrice [GAS_PRICE] \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --relayers [RELAYER_ACCOUNT_ADDRESS] \
@@ -138,7 +138,7 @@ Deploying contracts...
 ✓ ERC721Handler contract deployed
 
 ================================================================
-Url:        https://rpc-mumbai.matic.today
+Url:        https://rpc-mumbai.polygon.technology
 Deployer:   <ADMIN_ACCOUNT_ADDRESS>
 Gas Limit:   8000000
 Gas Price:   20000000
@@ -186,7 +186,7 @@ Crie o ficheiro `.env` e defina os seguintes valores.
 
 ```.env
 PRIVATE_KEYS=0x...
-MUMBAI_JSONRPC_URL=https://rpc-mumbai.matic.today
+MUMBAI_JSONRPC_URL=https://rpc-mumbai.polygon.technology
 EDGE_JSONRPC_URL=http://localhost:10002
 ```
 
@@ -216,7 +216,7 @@ Irá registar uma identificação que associe os recursos num ambiente cross-cha
 
 ```bash
 $ cb-sol-cli bridge register-resource \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [ADMIN_ACCOUNT_PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   # Set Resource ID for ERC721
@@ -282,7 +282,7 @@ Por fim, deverá iniciar a transferência do NFT da Mumbai para o Edge.
 ```bash
 # Start transfer from Mumbai to Polygon Edge chain
 $ cb-sol-cli erc721 deposit \
-  --url https://rpc-mumbai.matic.today \
+  --url https://rpc-mumbai.polygon.technology \
   --privateKey [PRIVATE_KEY] \
   --gasPrice [GAS_PRICE] \
   --id 0x50 \
