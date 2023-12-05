@@ -1,15 +1,14 @@
 ---
-id: smartpress
-title: How to Deploy a Smart Contract Using SmartPress
-sidebar_label: Using SmartPress
-description: "Learn how to deploy smart contracts on Polygon PoS using SmartPress."
+id: ethcreator
+title: How to Deploy a Smart Contract Using EthCreator
+sidebar_label: Using EthCreator
+description: "Learn how to deploy smart contracts on Polygon PoS using EthCreator."
 keywords:
   - docs
   - matic
   - polygon
-  - smartpress
+  - ethcreator
   - ai
-  - create smart contract
   - deploy on polygon
 image: https://wiki.polygon.technology/img/polygon-logo.png
 ---
@@ -20,22 +19,22 @@ Please view the third-party content disclaimer [<ins>here</ins>](https://github.
 
 :::
 
-SmartPress is an AI tool that crafts custom smart contracts from language prompts.
+EthCreator is an AI tool that crafts custom smart contracts from language prompts.
 
-> For details on the variety of contracts SmartPress can create, check out [SmartPress’s website](https://smartpress.ai).
+> For details on the variety of contracts EthCreator can build, check out [EthCreator’s website](https://ethcreator.com).
 
-## Create a Smart Contract using SmartPress
+## Create a Smart Contract using EthCreator
 
-To create a new smart contract with SmartPress, follow these steps:
+To create a new smart contract with EthCreator, follow these steps:
 
-1. In your browser, navigate to [smartpress.ai](smartpress.ai).
-2. Enter the specifications for your desired contract.
-3. Let SmartPress generate the contract for you; no need for an IDE or code editor.
+1. In your browser, navigate to [ethcreator.com](ethcreator.com).
+2. Enter the specifications for your desired application.
+3. Let EthCreator generate the code for you; no need for an IDE or code editor.
 4. Review the output. If satisfied, proceed to validation and testing. If not, modify your input and repeat the process.
 
 ![Screenshot 2023-08-15 at 12 33 59 pm](https://github.com/crokau/wiki/assets/71380821/c43ccb48-3b1b-4cad-814b-8eddc0f735c1)
 
-## Deploy your Contract using SmartPress
+## Deploy your Contract using EthCreator
 
 To deploy your smart contract on Polygon PoS:
 
@@ -45,7 +44,6 @@ To deploy your smart contract on Polygon PoS:
 ![Screenshot 2023-08-15 at 12 37 39 pm](https://github.com/crokau/wiki/assets/71380821/ea20889b-1b5e-44b7-ba9c-f208abf1e944)
 
 ## Verify the Contract
-
 
 To verify your new contract, follow these steps:
 
@@ -60,4 +58,4 @@ To verify your new contract, follow these steps:
 
 ## Need help?
 
-If you have any questions or encounter any issues during the process, **please reach out to the [official SmartPress support](contact@smartpress.ai)**.
+If you have any questions or encounter any issues during the process, **please reach out to the [official SmartPress support](mailto:contact@smartpress.ai)**.
